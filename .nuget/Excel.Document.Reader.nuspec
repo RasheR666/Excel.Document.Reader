@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/RasheR666/Excel.Document.Reader</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Branch: $branch$ | Commit: $commit$ | Publisher: $publisher$</description>
+	<copyright>RasheR666</copyright>
+  </metadata>
+  <files>
+    <file src="..\Excel.Document.Reader\bin\Release\**" target="" />
+  </files>
+</package>
