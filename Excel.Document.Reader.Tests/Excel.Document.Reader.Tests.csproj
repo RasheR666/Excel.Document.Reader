@@ -57,9 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestingProjectDirectoryProvider.cs" />
     <Compile Include="Xlsx\XlsxDocumentReaderTest.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Excel.Document.Reader\Excel.Document.Reader.csproj">
+      <Project>{818cfc51-01d2-4399-830c-86f448d03cc7}</Project>
+      <Name>Excel.Document.Reader</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
